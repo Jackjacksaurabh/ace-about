@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+}
+body {
+    background-image: url('web1.png');
+    background-repeat: no-repeat;
+    
+    background-size: initial;
+  }
+
+header {
+    max-width: 100%;
+    /* position: relative; */
+    color: #FFF;
+    text-align: center;
+    overflow: hidden;
+}
+.logo img{
+    float: left;
+    width: 280px;
+    height: auto;
+}
+    
+header nav {
+    
+    display: flex;
+    list-style: none;
+    position: relative;
+    left: 10%;
+    margin-bottom: 15px;
+}
+
+header nav a{
+    
+    color: rgb(204, 27, 27);
+    text-decoration: none;
+    margin: 30px;
+}
+header nav a:hover {
+    text-decoration: none;
+  background-color: bisque;
+}
+
+
+header nav .icons a i {
+    margin: 30px 5px;
+}
+.jumbotron{  
+    border: solid white;  
+    background:linear-gradient(to left, #0ea0da 0%, #e7a711 100%);
+}
+/* page content css start here */
+#intro1{
+    font-size: 20px;
+}
+.page-content{
+    text-align: center;
+}
+.page-content h3{
+    font-family: "Lucida Console", Courier, monospace;
+
+
+}
+/* page content css ends here */
+/* members of ace start here */
+#members{
+    text-align: center;
+}
+.col-3 {
+    
+    border-radius: 5px;
+    margin: auto;
+   max-width: 90%;
+    display: flex;
+}
+
+.member_name{
+    display: flex;
+    float: left;
+    padding: 5px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+/* members of ace ends here */
+/* footer strat here */
+
+footer {
+    background:black;
+    margin-top: 30px;
+}
+footer nav {
+    
+    display: flex;
+    padding: 20px;
+}
+footer nav a li{
+    
+    
+    color: #fff;
+    list-style-type: none;
+    margin: 0 10px;
+}
+footer nav a:hover {
+    text-decoration: none;
+    background-color: gray;
+  }
+/* footer ends here */
